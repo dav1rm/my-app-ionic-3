@@ -16,6 +16,6 @@ export class MoovieProvider {
   }
 
   getLatestMovies(){
-    return this.http.get(this.url+"/movie/popular?api_key=");
+    return this.http.get(this.url+"/movie/popular?api_key=24807b5baa204e59a24631bd934da94e");
   }
 }
